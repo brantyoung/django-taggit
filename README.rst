@@ -37,19 +37,7 @@ django-taggit
 Tags 将会自动显示在表单和后台 admin 中。
 
 
-
-If you want to enforce lowercase tags everywhere (recommended, to avoid
-ending up with tags 'Music' and 'music' which are functionally identical
-but show up in different taxonomies), add to settings.py:
-
-``TAGGIT_FORCE_LOWERCASE = True``
-
-If you want to prevent certain words from being added as tags (such as
-English articles to, from, the, of, etc.) add to settings.py:
-
-``TAGGIT_STOPWORDS = [u'a', u'an', u'and', u'be', u'from', u'of']``
-
-``django-taggit`` requires Django 1.1 or greater.
+``django-taggit`` 依赖 Django 1.1 或更高版本.
 
 For more info checkout out the documentation.  And for questions about usage or
 development you can contact the
